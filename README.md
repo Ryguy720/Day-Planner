@@ -1,33 +1,44 @@
-# Code-Quiz
+# Day-Planner
 ## Description
-INSERT TEXT HERE (WHY DID YOU MAKE THIS (NOT B/C IT'S HOMEWORK)? WHAT DID YOU LEARN? WHAT DID IT SHOW YOU YOU NEED TO CONTINUE TO DEVELOP?)
+For this project I learned how to incorperate Jquery and bootstrap into my code. I still need to 
 
 ## User Story
 
 ```
-USER STORY TEXT HERE
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
 ```
 
 ## Acceptance Criteria
 
 ```
-ACCEPTANCE CRITERIA HERE
+GIVEN I am using a daily planner to create a schedule
+WHEN I open the planner
+THEN the current day is displayed at the top of the calendar
+WHEN I scroll down
+THEN I am presented with timeblocks for standard business hours
+WHEN I view the timeblocks for that day
+THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+WHEN I click into a timeblock
+THEN I can enter an event
+WHEN I click the save button for that timeblock
+THEN the text for that event is saved in local storage
+WHEN I refresh the page
+THEN the saved events persis
 ```
 
 
 # Website Screenshot
 
-![INSERT IMG SHORT DESCRIPTION]( gif link here (convert mov4/webm to gif: https://cloudconvert.com/webm-to-gif) )
+![dayplanner SS](https://user-images.githubusercontent.com/87840389/135362177-67195193-8dac-4eb7-81f2-beef86d9850a.png)
 
 # Links
 
-Github: LINK HERE
+https://github.com/Ryguy720/Day-Planner
 
-Deployed Site: LINK HERE
+https://ryguy720.github.io/Day-Planner/
 
 
-# Resources/Credit
 
-* LINK HERE
-* LINK HERE
-* LINK HERE
+
