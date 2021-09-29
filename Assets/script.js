@@ -1,11 +1,11 @@
-let savebtn9am = document.getElementById("save9")
+let saveBtns = $("button")
 
-savebtn9am.addEventListener('click', function(){
-
-   document.getElementById("Nine")   
-        var id = $(this).attr('Nine');
-        var value = $(this).val();
+saveBtns.on('click', function(event){
+// console.log(event.target.previousSibling.previousSibling);
+   // document.getElementById("Nine")   
+        var id = $(this).siblings("input").attr("id");
+        var value = $(this).siblings("input").val();
        localStorage.setItem(id, value);
-       return console.log("Saved")
+       return console.log(id, value)
 
     });   
